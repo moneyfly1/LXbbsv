@@ -197,6 +197,8 @@ proxy-providers:
     benchmark-url: http://www.google.com/generate_204
     interval: 600
 
+
+
   订阅18:      #vpn社群公益
     <<: *p
     type: http
@@ -204,6 +206,49 @@ proxy-providers:
     benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
+
+  订阅19:      #公益机场免费节点订阅分享频道
+    <<: *p
+    type: http
+    url: "https://subsub.surge.sh/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgo4sharing%2Fsub%2Fmain%2Fsub.yaml"
+    benchmark-timeout: 100
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+
+  订阅20:      #橘子频道公益订阅
+    <<: *p
+    type: http
+    url: "https://dlj.tf/GuwLBaT"
+    benchmark-timeout: 100
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+  
+
+  订阅21:      #五叶频道公益订阅
+    <<: *p
+    type: http
+    url: "https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash.yaml"
+    benchmark-timeout: 100
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+
+  订阅22:      #轩辕节点分享频道公益订阅
+    <<: *p
+    type: http
+    url: "https://sub.xn--9sw509f.eu.org/auto"
+    benchmark-timeout: 100
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+
+
+
+
+
+
+
+
+
+
 
 
 
