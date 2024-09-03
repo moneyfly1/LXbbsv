@@ -46,15 +46,15 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fproxy.v2gh.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FPawdroid%2FFree-servers%2Fmain%2Fsub&insert=false&config=https%3A%2F%2Fu.lainbo.com%2Fclash-config-mini&list=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true"
-    interval: 21600
-    benchmark-timeout: 1000
+    interval: 600
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
   
   
   订阅2:      #😈github
     <<: *p
     type: http
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
     url: "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash_top30.yaml"
@@ -63,7 +63,7 @@ proxy-providers:
   订阅3:     #itsvpn
     <<: *p
     type: http
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
     url: "https://sync.xn--8stx8olrwkucjq3b.com/v1/service/10410650?hmac=E131BB4392A5C560FCD895670E60BB016C5B097607ACF2D1ADA0097CF0F50C7E&lang=en&templateId=22111"
@@ -73,7 +73,7 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://VMess.fxxk.dedyn.io/auto"
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
   
@@ -82,7 +82,7 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://VLESS.fxxk.dedyn.io/auto"
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
   
@@ -91,7 +91,7 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
   
@@ -99,7 +99,7 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml"
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
   
@@ -108,7 +108,7 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml"
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
 
@@ -118,7 +118,7 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://3k.fxxk.dedyn.io/auto"
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
   
@@ -127,7 +127,7 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://clash.llleman.com/clach.yml"
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
   
@@ -136,7 +136,7 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gitbigg/dy/main/jd"
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
 
@@ -145,7 +145,7 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://gist.githubusercontent.com/freeorgworld/128c0e7260148f61f8708c9566aed5ab/raw/publicvless.yaml"
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
 
@@ -155,7 +155,7 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://sub.kaiche.tk/?token=auto"
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
 
@@ -165,7 +165,7 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://alvless.comorg.us.kg/TCorg"
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
 
@@ -176,7 +176,7 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://altrojan.filegear-sg.me/TCorg"
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
 
@@ -185,7 +185,7 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://moistr.freenods.sbs/mianfeicf"
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
 
@@ -193,7 +193,7 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://moist.freenods.sbs/Trojan"
-    benchmark-timeout: 1000
+    benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
 
