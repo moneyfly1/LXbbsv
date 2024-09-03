@@ -197,7 +197,13 @@ proxy-providers:
     benchmark-url: http://www.google.com/generate_204
     interval: 600
 
-
+  订阅18:      #vpn社群公益
+    <<: *p
+    type: http
+    url: "https://raw.githubusercontent.com/Minecraftpe2007/joshua/master/piavpn.json"
+    benchmark-timeout: 100
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
 
 
 
