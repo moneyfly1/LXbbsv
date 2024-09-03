@@ -294,7 +294,23 @@ rule-providers:
     path: ./ruleset/applications.yaml
     interval: 86400
 
-
+rules:
+  - RULE-SET,applications,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,选择代理
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,google,选择代理
+  - RULE-SET,proxy,选择代理
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,cncidr,DIRECT
+  - RULE-SET,telegramcidr,选择代理
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,选择代理
 
 #代理分组
 proxy-groups:
@@ -334,28 +350,10 @@ proxy-groups:
     type: url-test
     include-all: true
     filter: "(?i)^(?!unavailable).*$"
-    use:
-      订阅1
-      订阅2
-      订阅3
-      订阅4
-      订阅5
-      订阅6
-      订阅7
-      订阅8
-      订阅9
-      订阅10
-      订阅11
-      订阅12
-      订阅13
-      订阅14
-      订阅15
-      订阅16
-      订阅17
 
-  
-  
-  
+
+
+    
   - name: 手动选择
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Static.png
     interval: 120
@@ -363,25 +361,7 @@ proxy-groups:
     type: select
     include-all: true
     filter: "(?i)^(?!unavailable).*$"
-    use:
-      订阅1
-      订阅2
-      订阅3
-      订阅4
-      订阅5
-      订阅6
-      订阅7
-      订阅8
-      订阅9
-      订阅10
-      订阅11
-      订阅12
-      订阅13
-      订阅14
-      订阅15
-      订阅16
-      订阅17
-
+    
 
 
   - name: Netflix
@@ -468,24 +448,7 @@ proxy-groups:
     tolerance: 50
     type: url-test
     include-all: true
-    use:
-      订阅1
-      订阅2
-      订阅3
-      订阅4
-      订阅5
-      订阅6
-      订阅7
-      订阅8
-      订阅9
-      订阅10
-      订阅11
-      订阅12
-      订阅13
-      订阅14
-      订阅15
-      订阅16
-      订阅17
+    
   
   
   - name: TW 台湾
@@ -496,25 +459,6 @@ proxy-groups:
     tolerance: 50
     type: url-test
     include-all: true
-    use:
-      订阅1
-      订阅2
-      订阅3
-      订阅4
-      订阅5
-      订阅6
-      订阅7
-      订阅8
-      订阅9
-      订阅10
-      订阅11
-      订阅12
-      订阅13
-      订阅14
-      订阅15
-      订阅16
-      订阅17
-  
   
   
   - name: SG 新加坡
@@ -525,25 +469,7 @@ proxy-groups:
     tolerance: 50
     type: url-test
     include-all: true
-    use:
-      订阅1
-      订阅2
-      订阅3
-      订阅4
-      订阅5
-      订阅6
-      订阅7
-      订阅8
-      订阅9
-      订阅10
-      订阅11
-      订阅12
-      订阅13
-      订阅14
-      订阅15
-      订阅16
-      订阅17
-  
+    
   
   
   - name: JP 日本
@@ -554,25 +480,7 @@ proxy-groups:
     tolerance: 50
     type: url-test
     include-all: true
-    use:
-      订阅1
-      订阅2
-      订阅3
-      订阅4
-      订阅5
-      订阅6
-      订阅7
-      订阅8
-      订阅9
-      订阅10
-      订阅11
-      订阅12
-      订阅13
-      订阅14
-      订阅15
-      订阅16
-      订阅17
-  
+    
   
   
   - name: US 美国
@@ -583,24 +491,6 @@ proxy-groups:
     tolerance: 50
     type: url-test
     include-all: true
-    use:
-      订阅1
-      订阅2
-      订阅3
-      订阅4
-      订阅5
-      订阅6
-      订阅7
-      订阅8
-      订阅9
-      订阅10
-      订阅11
-      订阅12
-      订阅13
-      订阅14
-      订阅15
-      订阅16
-      订阅17
-
+    
 
 
