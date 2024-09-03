@@ -51,7 +51,7 @@ proxy-providers:
     benchmark-url: http://www.google.com/generate_204
   
   
-  订阅2:
+  订阅2:      #😈github
     <<: *p
     type: http
     benchmark-timeout: 1000
@@ -60,37 +60,37 @@ proxy-providers:
     url: "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash_top30.yaml"
   
   
-  订阅3:
+  订阅3:     #itsvpn
     <<: *p
     type: http
     benchmark-timeout: 1000
     benchmark-url: http://www.google.com/generate_204
     interval: 600
-    url: "https://raw.githubusercontent.com/alex-mikan88/chromego_pure/main/outputs/clash_meta_warp.yaml"
+    url: "https://sync.xn--8stx8olrwkucjq3b.com/v1/service/10410650?hmac=E131BB4392A5C560FCD895670E60BB016C5B097607ACF2D1ADA0097CF0F50C7E&lang=en&templateId=22111"
   
   
-  订阅4:
+  订阅4:      #cm优选订阅vmess
     <<: *p
     type: http
-    url: "https://www.xrayvip.com/free.yaml"
+    url: "https://VMess.fxxk.dedyn.io/auto"
     benchmark-timeout: 1000
     benchmark-url: http://www.google.com/generate_204
     interval: 600
   
   
-  订阅5:
+  订阅5:     #cm优选订阅vless
     <<: *p
     type: http
-    url: "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml"
+    url: "https://VLESS.fxxk.dedyn.io/auto"
     benchmark-timeout: 1000
     benchmark-url: http://www.google.com/generate_204
     interval: 600
   
   
-  订阅6:
+  订阅6:     #分享舍频道
     <<: *p
     type: http
-    url: "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
+    url: "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
     benchmark-timeout: 1000
     benchmark-url: http://www.google.com/generate_204
     interval: 600
@@ -104,31 +104,101 @@ proxy-providers:
     interval: 600
   
   
-  订阅8:
+  订阅8:      #Github抓取2
     <<: *p
     type: http
-    url: "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
+    url: "https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml"
+    benchmark-timeout: 1000
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+
+
+
+  订阅9:      #cm第三方优选3k大佬维护
+    <<: *p
+    type: http
+    url: "https://3k.fxxk.dedyn.io/auto"
     benchmark-timeout: 1000
     benchmark-url: http://www.google.com/generate_204
     interval: 600
   
   
-  订阅10:
+  订阅10:      #Github抓取1
     <<: *p
     type: http
-    url: "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml"
+    url: "https://clash.llleman.com/clach.yml"
     benchmark-timeout: 1000
     benchmark-url: http://www.google.com/generate_204
     interval: 600
   
   
-  订阅11:
+  订阅11:     #胖虎频道
     <<: *p
     type: http
-    url: "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml"
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gitbigg/dy/main/jd"
     benchmark-timeout: 1000
     benchmark-url: http://www.google.com/generate_204
     interval: 600
+
+
+  订阅12:     #cm频道
+    <<: *p
+    type: http
+    url: "https://gist.githubusercontent.com/freeorgworld/128c0e7260148f61f8708c9566aed5ab/raw/publicvless.yaml"
+    benchmark-timeout: 1000
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+
+
+
+  订阅13:      #cm优选otc大佬维护
+    <<: *p
+    type: http
+    url: "https://sub.kaiche.tk/?token=auto"
+    benchmark-timeout: 1000
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+
+
+    
+  订阅14:      #cm优选天诚vless
+    <<: *p
+    type: http
+    url: "https://alvless.comorg.us.kg/TCorg"
+    benchmark-timeout: 1000
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+
+
+
+
+  订阅15:      #cm优选天诚trojan
+    <<: *p
+    type: http
+    url: "https://altrojan.filegear-sg.me/TCorg"
+    benchmark-timeout: 1000
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+
+
+  订阅16:      #cm优选moist-r维护（欢乐时光）
+    <<: *p
+    type: http
+    url: "https://moistr.freenods.sbs/mianfeicf"
+    benchmark-timeout: 1000
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+
+  订阅17:      #cm优选moist-r维护（欢乐时光）trojan
+    <<: *p
+    type: http
+    url: "https://moist.freenods.sbs/Trojan"
+    benchmark-timeout: 1000
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+
+
+
 
 
 #规则
@@ -264,6 +334,25 @@ proxy-groups:
     type: url-test
     include-all: true
     filter: "(?i)^(?!unavailable).*$"
+    use:
+      订阅1
+      订阅2
+      订阅3
+      订阅4
+      订阅5
+      订阅6
+      订阅7
+      订阅8
+      订阅9
+      订阅10
+      订阅11
+      订阅12
+      订阅13
+      订阅14
+      订阅15
+      订阅16
+      订阅17
+
   
   
   
@@ -274,9 +363,27 @@ proxy-groups:
     type: select
     include-all: true
     filter: "(?i)^(?!unavailable).*$"
-  
-  
-  
+    use:
+      订阅1
+      订阅2
+      订阅3
+      订阅4
+      订阅5
+      订阅6
+      订阅7
+      订阅8
+      订阅9
+      订阅10
+      订阅11
+      订阅12
+      订阅13
+      订阅14
+      订阅15
+      订阅16
+      订阅17
+
+
+
   - name: Netflix
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Netflix.png
     type: select
@@ -361,7 +468,24 @@ proxy-groups:
     tolerance: 50
     type: url-test
     include-all: true
-  
+    use:
+      订阅1
+      订阅2
+      订阅3
+      订阅4
+      订阅5
+      订阅6
+      订阅7
+      订阅8
+      订阅9
+      订阅10
+      订阅11
+      订阅12
+      订阅13
+      订阅14
+      订阅15
+      订阅16
+      订阅17
   
   
   - name: TW 台湾
@@ -372,6 +496,24 @@ proxy-groups:
     tolerance: 50
     type: url-test
     include-all: true
+    use:
+      订阅1
+      订阅2
+      订阅3
+      订阅4
+      订阅5
+      订阅6
+      订阅7
+      订阅8
+      订阅9
+      订阅10
+      订阅11
+      订阅12
+      订阅13
+      订阅14
+      订阅15
+      订阅16
+      订阅17
   
   
   
@@ -383,6 +525,24 @@ proxy-groups:
     tolerance: 50
     type: url-test
     include-all: true
+    use:
+      订阅1
+      订阅2
+      订阅3
+      订阅4
+      订阅5
+      订阅6
+      订阅7
+      订阅8
+      订阅9
+      订阅10
+      订阅11
+      订阅12
+      订阅13
+      订阅14
+      订阅15
+      订阅16
+      订阅17
   
   
   
@@ -394,6 +554,24 @@ proxy-groups:
     tolerance: 50
     type: url-test
     include-all: true
+    use:
+      订阅1
+      订阅2
+      订阅3
+      订阅4
+      订阅5
+      订阅6
+      订阅7
+      订阅8
+      订阅9
+      订阅10
+      订阅11
+      订阅12
+      订阅13
+      订阅14
+      订阅15
+      订阅16
+      订阅17
   
   
   
@@ -405,3 +583,24 @@ proxy-groups:
     tolerance: 50
     type: url-test
     include-all: true
+    use:
+      订阅1
+      订阅2
+      订阅3
+      订阅4
+      订阅5
+      订阅6
+      订阅7
+      订阅8
+      订阅9
+      订阅10
+      订阅11
+      订阅12
+      订阅13
+      订阅14
+      订阅15
+      订阅16
+      订阅17
+
+
+
