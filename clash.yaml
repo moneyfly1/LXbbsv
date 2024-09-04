@@ -199,10 +199,10 @@ proxy-providers:
 
 
 
-  订阅18:      #Github公益每日更新作者aiboboxx
+  订阅18:      #Github公益AutoMergePublicNodes
     <<: *p
     type: http
-    url: "https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml"
+    url: "https://testingcf.jsdelivr.net/gh/chengaopan/AutoMergePublicNodes@master/list.yml"
     benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
