@@ -199,18 +199,19 @@ proxy-providers:
 
 
 
-  订阅18:      #vpn社群公益
+  订阅18:      #Github公益每日更新作者aiboboxx
     <<: *p
     type: http
-    url: "https://raw.githubusercontent.com/Minecraftpe2007/joshua/master/piavpn.json"
+    url: "https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml"
     benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
 
-  订阅19:      #公益机场免费节点订阅分享频道
+  订阅19:      #Github公益Pawdroid订阅 Free-servers 
     <<: *p
     type: http
-    url: "https://subsub.surge.sh/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgo4sharing%2Fsub%2Fmain%2Fsub.yaml"
+    url: "https://proxy.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+    url: "https://mirror.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
     benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
