@@ -211,7 +211,6 @@ proxy-providers:
     <<: *p
     type: http
     url: "https://proxy.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
-    url: "https://mirror.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
     benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
@@ -242,7 +241,13 @@ proxy-providers:
     interval: 600
 
 
-
+  订阅23:      #Github公益Pawdroid订阅 Free-servers 
+    <<: *p
+    type: http
+    url: "https://mirror.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+    benchmark-timeout: 100
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
 
 
 
