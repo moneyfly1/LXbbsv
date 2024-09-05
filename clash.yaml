@@ -250,6 +250,84 @@ proxy-providers:
     interval: 600
 
 
+  订阅24:      #熊二频道维护
+    <<: *p
+    type: http
+    url: "https://tt.vg/lnUQH"
+    benchmark-timeout: 100
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+
+  订阅25:      #linuxdo大佬的24T
+    <<: *p
+    type: http
+    url: "http://j2s.buzz/v3/subscr?id=939901fa08cf42e7b027966bfebce3b5"
+    benchmark-timeout: 100
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+
+
+  订阅26:      #巨魔资源频道赞助50T 
+    <<: *p
+    type: http
+    url: "https://1.bethebest.eu.org/api/v1/client/subscribe?token=3715a07dc448ad9f275aa73e54b762b7&types=vmess"
+    benchmark-timeout: 100
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+
+  订阅27:      #https://d1.mk/VPN1
+    <<: *p
+    type: http
+    url: "https://mirror.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+    benchmark-timeout: 100
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
