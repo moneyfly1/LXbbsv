@@ -283,7 +283,7 @@ proxy-providers:
     benchmark-url: http://www.google.com/generate_204
     interval: 600
 
-  订阅27:      #linuxdo大佬mxlsky整合去重精简版
+  订阅28:      #linuxdo大佬mxlsky整合去重精简版
     <<: *p
     type: http
     url: "https://sub.mxlweb.xyz/new"
@@ -293,7 +293,13 @@ proxy-providers:
     #未去重全地区版"https://sub.mxlweb.xyz/newfull"
     #低延迟筛选节点 Cloudflare Worker "https://sub.mxlweb.xyz/free"
 
-
+  订阅29:      #Github大佬aggregator公益汇总订阅
+    <<: *p
+    type: http
+    url: "https://imperialb.in/r/ununbd0v"
+    benchmark-timeout: 100
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
 
 
 
