@@ -275,15 +275,23 @@ proxy-providers:
     benchmark-url: http://www.google.com/generate_204
     interval: 600
 
-  订阅27:      #https://d1.mk/VPN1
+  订阅27:      #巨魔资源频道vpn提取
     <<: *p
     type: http
-    url: "https://mirror.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+    url: "https://d1.mk/VPN1"
     benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
 
-
+  订阅27:      #linuxdo大佬mxlsky整合去重精简版
+    <<: *p
+    type: http
+    url: "https://sub.mxlweb.xyz/new"
+    benchmark-timeout: 100
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
+    #未去重全地区版"https://sub.mxlweb.xyz/newfull"
+    #低延迟筛选节点 Cloudflare Worker "https://sub.mxlweb.xyz/free"
 
 
 
