@@ -459,7 +459,28 @@ rules:
   - RULE-SET,telegramcidr,选择代理
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,选择代理
+  - MATCH,DIRECT
+  - RULE-SET,tld-not-cn,选择代理
+  - RULE-SET,gfw,选择代理
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 #代理分组
 proxy-groups:
