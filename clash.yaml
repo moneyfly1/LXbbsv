@@ -76,8 +76,17 @@ proxy-providers:
     benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
+
+
+  订阅5:     #Github满屏💗公益订阅
+    <<: *p
+    type: http
+    url: "https://shz.al/HFm8"
+    benchmark-timeout: 100
+    benchmark-url: http://www.google.com/generate_204
+    interval: 600
   
-  
+
   订阅6:      #cm第三方优选3k大佬维护
     <<: *p
     type: http
