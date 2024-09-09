@@ -411,7 +411,7 @@ proxy-groups:
     tolerance: 50
     type: url-test
     include-all: true
-    filter: "(?i)^(?!(unavailable|中国|频道|未知地域|other|教程|CMCC)).*$"
+    filter: "(?i)^(?!(unavailable|中国|频道|教程|CMCC)).*$"
     user:
       订阅1
       订阅2
@@ -452,7 +452,7 @@ proxy-groups:
     lazy: true
     type: select
     include-all: true
-    filter: "(?i)^(?!(unavailable|中国|频道|未知地域|other|教程|CMCC)).*$"
+    filter: "(?i)^(?!(unavailable|中国|频道|教程|CMCC)).*$"
     user:
       订阅1
       订阅2
