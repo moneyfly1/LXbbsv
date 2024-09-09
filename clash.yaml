@@ -411,7 +411,7 @@ proxy-groups:
     tolerance: 50
     type: url-test
     include-all: true
-    filter: "(?i)^(?!(unavailable|中国|频道|未知|other|教程|ipv6)).*$"
+    filter: "(?i)^(?!(unavailable|中国|频道|未知地域|other|教程|CMCC)).*$"
     user:
       订阅1
       订阅2
@@ -452,7 +452,7 @@ proxy-groups:
     lazy: true
     type: select
     include-all: true
-    filter: "(?i)^(?!(unavailable|中国|频道|未知|other|教程|ipv6)).*$"
+    filter: "(?i)^(?!(unavailable|中国|频道|未知地域|other|教程|CMCC)).*$"
     user:
       订阅1
       订阅2
@@ -562,7 +562,7 @@ proxy-groups:
   
   # 基于地区分组
   - name: HK 香港
-    filter: "澳门|🇲🇴|港|🇭🇰|HK|(?i)Hong^((?!(中国|频道|未知|other|教程|ipv6)).)*$"
+    filter: "澳门|🇲🇴|港|🇭🇰|HK|(?i)Hong"
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Hong_Kong.png
     interval: 120
     lazy: true
@@ -602,7 +602,7 @@ proxy-groups:
   
   
   - name: TW 台湾
-    filter: "台|🇹🇼|湾|TW|(?i)Taiwan^((?!(中国|频道|未知|other|教程|ipv6)).)*$"
+    filter: "台|🇹🇼|湾|TW|(?i)Taiwan"
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Taiwan.png
     interval: 120
     lazy: true
@@ -642,7 +642,7 @@ proxy-groups:
   
   
   - name: SG 新加坡
-    filter: "新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore^((?!(中国|频道|未知|other|教程|ipv6)).)*$"
+    filter: "新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore"
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Singapore.png
     interval: 120
     lazy: true
@@ -683,7 +683,7 @@ proxy-groups:
   
   
   - name: JP 日本
-    filter: "日|🇯🇵|东京|JP|(?i)Japan^((?!(中国|频道|未知|other|教程|ipv6)).)*$"
+    filter: "日|🇯🇵|东京|JP|(?i)Japan"
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Japan.png
     interval: 120
     lazy: true
@@ -724,7 +724,7 @@ proxy-groups:
   
   
   - name: US 美国
-    filter: "美|🇺🇲|US|(?i)States|America^((?!(中国|频道|未知|other|教程|ipv6)).)*$"
+    filter: "美|🇺🇲|US|(?i)States|America"
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_States.png
     interval: 120
     lazy: true
