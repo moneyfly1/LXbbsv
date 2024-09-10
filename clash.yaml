@@ -482,8 +482,6 @@ proxy-groups:
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Netflix.png
     type: select
     proxies:
-      - ⚖️ 负载均衡-轮询
-      - ⚖️ 负载均衡-散列
       - 自动选择
       - 手动选择
       - HK 香港
@@ -499,8 +497,6 @@ proxy-groups:
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Disney%2B.png
     type: select
     proxies:
-      - ⚖️ 负载均衡-轮询
-      - ⚖️ 负载均衡-散列
       - 自动选择
       - 手动选择
       - HK 香港
@@ -516,8 +512,6 @@ proxy-groups:
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Spotify.png
     type: select
     proxies:
-      - ⚖️ 负载均衡-轮询
-      - ⚖️ 负载均衡-散列
       - 自动选择
       - 手动选择
       - HK 香港
@@ -533,8 +527,6 @@ proxy-groups:
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/YouTube.png
     type: select
     proxies:
-      - ⚖️ 负载均衡-轮询
-      - ⚖️ 负载均衡-散列
       - 自动选择
       - 手动选择
       - HK 香港
