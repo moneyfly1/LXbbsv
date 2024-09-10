@@ -543,14 +543,7 @@ proxy-groups:
     url: http://www.google.com/generate_204
     interval: 300
     strategy: consistent-hashing
-    proxies:
-      - 自动选择
-      - 手动选择
-      - HK 香港
-      - TW 台湾
-      - SG 新加坡
-      - JP 日本
-      - US 美国
+    include-all: true
 
 
 
@@ -560,14 +553,7 @@ proxy-groups:
     url: http://www.google.com/generate_204
     interval: 300
     strategy: round-robin
-    proxies:
-      - 自动选择
-      - 手动选择
-      - HK 香港
-      - TW 台湾
-      - SG 新加坡
-      - JP 日本
-      - US 美国
+    include-all: true
 
 
 
