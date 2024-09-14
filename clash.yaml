@@ -1,3 +1,4 @@
+#SUBSCRIBED https://github.com/DAlxbss/LXbbsv/raw/main/clash.yaml
 port: 7890
 allow-lan: true
 bind-address: '*'
@@ -31,6 +32,9 @@ dns:
     - 'dns.msftncsi.com'
     - 'www.msftncsi.com'
     - 'www.msftconnecttest.com'
+# 订阅更新和延迟测试相关
+p: &p {type: http, interval: 21600, health-check: {enable: true, url: "http://www.google.com/generate_204", interval: 1800, filter: "(?i)^(?!unavailable).*$"}}
+
 
 
 
@@ -119,6 +123,40 @@ proxy-providers:
     benchmark-timeout: 100
     benchmark-url: http://www.google.com/generate_204
     interval: 600
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -303,7 +341,6 @@ proxy-groups:
 
 
 
-
     
   - name: 手动选择
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Static.png
@@ -415,6 +452,8 @@ proxy-groups:
     type: url-test
     include-all: true
 
+
+
   
   
   - name: SG 新加坡
@@ -426,6 +465,7 @@ proxy-groups:
     type: url-test
     include-all: true
 
+    
   
   
   - name: JP 日本
@@ -437,6 +477,7 @@ proxy-groups:
     type: url-test
     include-all: true
 
+    
   
   
   - name: US 美国
@@ -449,5 +490,3 @@ proxy-groups:
     include-all: true
 
     
-
-
