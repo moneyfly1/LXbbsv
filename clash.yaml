@@ -43,16 +43,8 @@ p: &p {type: http, interval: 21600, health-check: {enable: true, url: "http://ww
 #订阅分组
 proxy-providers:
   
-  订阅1:      #😈github
-    <<: *p
-    type: http
-    benchmark-timeout: 100
-    benchmark-url: http://www.google.com/generate_204
-    interval: 600
-    url: "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash_top30.yaml"
   
-  
-  订阅2:      #cm优选订阅vmess（加拿大多伦多）
+  订阅1:      #cm优选订阅vmess（加拿大多伦多）
     <<: *p
     type: http
     url: "https://VMess.fxxk.dedyn.io/auto"
@@ -61,7 +53,7 @@ proxy-providers:
     interval: 600
   
   
-  订阅3:     #cm优选订阅vless
+  订阅2:     #cm优选订阅vless
     <<: *p
     type: http
     url: "https://VLESS.fxxk.dedyn.io/auto"
@@ -70,16 +62,7 @@ proxy-providers:
     interval: 600
 
 
-  订阅4:     #Github💗公益订阅
-    <<: *p
-    type: http
-    url: "https://shz.al/HFm8"
-    benchmark-timeout: 100
-    benchmark-url: http://www.google.com/generate_204
-    interval: 600
-  
-
-  订阅5:      #cm第三方优选3k大佬维护
+  订阅3:      #cm第三方优选3k大佬维护
     <<: *p
     type: http
     url: "https://3k.fxxk.dedyn.io/auto"
@@ -88,7 +71,7 @@ proxy-providers:
     interval: 600
   
   
-  订阅6:     #胖虎频道
+  订阅4:     #胖虎频道
     <<: *p
     type: http
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gitbigg/dy/main/jd"
@@ -97,7 +80,7 @@ proxy-providers:
     interval: 600
 
 
-  订阅7:     #cm频道
+  订阅5:     #cm频道
     <<: *p
     type: http
     url: "https://gist.githubusercontent.com/freeorgworld/128c0e7260148f61f8708c9566aed5ab/raw/publicvless.yaml"
@@ -106,7 +89,7 @@ proxy-providers:
     interval: 600
 
 
-  订阅8:      #cm优选otc大佬维护（warpkry）
+  订阅6:      #cm优选otc大佬维护（warpkry）
     <<: *p
     type: http
     url: "https://sub.kaiche.tk/?token=auto"
@@ -124,7 +107,7 @@ proxy-providers:
     interval: 600
 
 
-  订阅10:      #cm优选天诚trojan🐲
+  订阅7:      #cm优选天诚trojan🐲
     <<: *p
     type: http
     url: "https://altrojan.filegear-sg.me/TCorg"
@@ -133,7 +116,7 @@ proxy-providers:
     interval: 600
 
 
-  订阅11:      #cm优选moist-r维护（欢乐时光）
+  订阅8:      #cm优选moist-r维护（欢乐时光）
     <<: *p
     type: http
     url: "https://moistr.freenods.sbs/mianfeicf"
@@ -142,7 +125,7 @@ proxy-providers:
     interval: 600
 
 
-  订阅12:      #cm优选moist-r维护（欢乐时光）trojan
+  订阅9:      #cm优选moist-r维护（欢乐时光）trojan
     <<: *p
     type: http
     url: "https://moist.freenods.sbs/Trojan"
@@ -151,30 +134,6 @@ proxy-providers:
     interval: 600
 
 
-  订阅13:      #五叶频道公益订阅
-    <<: *p
-    type: http
-    url: "https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash.yaml"
-    benchmark-timeout: 100
-    benchmark-url: http://www.google.com/generate_204
-    interval: 600
-
-
-  订阅14:      #linuxdo大佬mxlsky整合去重精简版
-    <<: *p
-    type: http
-    url: "https://sub.mxlweb.xyz/new"
-    benchmark-timeout: 100
-    benchmark-url: http://www.google.com/generate_204
-    interval: 600
-
-  订阅15:      #Github大佬aggregator公益汇总订阅
-    <<: *p
-    type: http
-    url: "https://imperialb.in/r/ununbd0v"
-    benchmark-timeout: 100
-    benchmark-url: http://www.google.com/generate_204
-    interval: 600
 
 
 
