@@ -31,10 +31,6 @@ dns:
     - 'dns.msftncsi.com'
     - 'www.msftncsi.com'
     - 'www.msftconnecttest.com'
-# 订阅更新和延迟测试相关
-p: &p {type: http, interval: 21600, health-check: {enable: true, url: "http://www.google.com/generate_204", interval: 1800, filter: "(?i)^(?!unavailable).*$"}}
-
-
 
 
 
@@ -44,7 +40,6 @@ p: &p {type: http, interval: 21600, health-check: {enable: true, url: "http://ww
 proxy-providers:
 
   订阅1:      #cm优选订阅vmess（加拿大多伦多）
-    <<: *p
     type: http
     url: "https://VMess.fxxk.dedyn.io/auto"
     benchmark-timeout: 100
@@ -53,7 +48,6 @@ proxy-providers:
   
   
   订阅2:     #cm优选订阅vless
-    <<: *p
     type: http
     url: "https://VLESS.fxxk.dedyn.io/auto"
     benchmark-timeout: 100
@@ -62,7 +56,6 @@ proxy-providers:
 
 
   订阅3:      #cm第三方优选3k大佬维护
-    <<: *p
     type: http
     url: "https://3k.fxxk.dedyn.io/auto"
     benchmark-timeout: 100
@@ -71,7 +64,6 @@ proxy-providers:
   
   
   订阅4:     #胖虎频道
-    <<: *p
     type: http
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gitbigg/dy/main/jd"
     benchmark-timeout: 100
@@ -80,7 +72,6 @@ proxy-providers:
 
 
   订阅5:     #cm频道
-    <<: *p
     type: http
     url: "https://gist.githubusercontent.com/freeorgworld/128c0e7260148f61f8708c9566aed5ab/raw/publicvless.yaml"
     benchmark-timeout: 100
@@ -98,7 +89,6 @@ proxy-providers:
 
   
   订阅9:      #cm优选天诚vless🐲
-    <<: *p
     type: http
     url: "https://alvless.comorg.us.kg/TCorg"
     benchmark-timeout: 100
@@ -107,7 +97,6 @@ proxy-providers:
 
 
   订阅7:      #cm优选天诚trojan🐲
-    <<: *p
     type: http
     url: "https://altrojan.filegear-sg.me/TCorg"
     benchmark-timeout: 100
@@ -116,7 +105,6 @@ proxy-providers:
 
 
   订阅8:      #cm优选moist-r维护（欢乐时光）
-    <<: *p
     type: http
     url: "https://moistr.freenods.sbs/mianfeicf"
     benchmark-timeout: 100
@@ -125,7 +113,6 @@ proxy-providers:
 
 
   订阅9:      #cm优选moist-r维护（欢乐时光）trojan
-    <<: *p
     type: http
     url: "https://moist.freenods.sbs/Trojan"
     benchmark-timeout: 100
