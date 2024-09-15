@@ -32,8 +32,7 @@ dns:
     - 'dns.msftncsi.com'
     - 'www.msftncsi.com'
     - 'www.msftconnecttest.com'
-# 订阅更新和延迟测试相关
-p: &p {type: http, interval: 21600, health-check: {enable: true, url: "http://www.google.com/generate_204", interval: 1800, filter: "(?i)^(?!unavailable).*$"}}
+
 
 
 
