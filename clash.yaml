@@ -126,7 +126,7 @@ proxy-providers:
     interval: 600
 
   
-  订阅9:      #cm优选天诚vless🐲
+  订阅7:      #cm优选天诚vless🐲
     type: http
     url: "https://alvless.comorg.us.kg/TCorg"
     benchmark-timeout: 100
@@ -134,7 +134,7 @@ proxy-providers:
     interval: 600
 
 
-  订阅7:      #cm优选天诚trojan🐲
+  订阅8:      #cm优选天诚trojan🐲
     type: http
     url: "https://altrojan.filegear-sg.me/TCorg"
     benchmark-timeout: 100
@@ -142,7 +142,7 @@ proxy-providers:
     interval: 600
 
 
-  订阅8:      #cm优选moist-r维护（欢乐时光）
+  订阅9:      #cm优选moist-r维护（欢乐时光）
     type: http
     url: "https://moistr.freenods.sbs/mianfeicf"
     benchmark-timeout: 100
@@ -150,7 +150,7 @@ proxy-providers:
     interval: 600
 
 
-  订阅9:      #cm优选moist-r维护（欢乐时光）trojan
+  订阅10:      #cm优选moist-r维护（欢乐时光）trojan
     type: http
     url: "https://moist.freenods.sbs/Trojan"
     benchmark-timeout: 100
