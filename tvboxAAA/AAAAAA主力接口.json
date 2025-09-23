@@ -2,6 +2,13 @@
   "spider": "./spider.jar",
   "sites": [
     {
+            "key": "豆瓣",
+            "name": "豆瓣｜首页",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+    {
       "key": "腾讯视频",
       "name": "👑｜腾讯｜4K",
       "type": 3,
