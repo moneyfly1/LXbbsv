@@ -1,12 +1,12 @@
 {
-  "spider": "./s9doPjDk.png",
+  "spider": "http://210.16.160.81:1122/s9doPjDk.png",
   "wallpaper": "https://api.btstu.cn/sjbz/api.php",
   "logo": "https://13935.kstore.space/b/logo.gif",
   "lives": [
     {
       "name": "live",
       "type": 0,
-      "url": "./00001live.txt",
+      "url": "http://210.16.160.81:1122/00001live.txt",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
       "logo": "https://py.nxog.eu.org/https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png",
       "playerType": 2,
@@ -18,15 +18,15 @@
       "key": "腾讯视频",
       "name": "👑｜腾讯｜4K",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/腾讯视频.js"
+      "api": "http://210.16.160.81:1122/lib/drpy2.min.js",
+      "ext": "http://210.16.160.81:1122/lib/腾讯视频.js"
     },
     {
       "key": "芒果视频",
       "name": "👑｜芒果｜4K",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/芒果视频.js"
+      "api": "http://210.16.160.81:1122/lib/drpy2.min.js",
+      "ext": "http://210.16.160.81:1122/lib/芒果视频.js"
     },
     {
       "key": "韩小圈",
@@ -41,15 +41,15 @@
       "key": "优酷视频",
       "name": "🔰｜优酷｜HD",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/优酷视频.js"
+      "api": "http://210.16.160.81:1122/lib/drpy2.min.js",
+      "ext": "http://210.16.160.81:1122/lib/优酷视频.js"
     },
     {
       "key": "爱奇艺",
       "name": "🔰｜奇艺｜HD",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/爱奇艺.js"
+      "api": "http://210.16.160.81:1122/lib/drpy2.min.js",
+      "ext": "http://210.16.160.81:1122/lib/爱奇艺.js"
     },
      {
       "key": "bilimd",
@@ -89,7 +89,7 @@
       "key": "急救教学",
       "name": "🏥｜急救｜教学",
       "type": 3,
-      "jar": "./lib/svip.jar",
+      "jar": "http://210.16.160.81:1122/lib/svip.jar",
       "api": "csp_FirstAid",
       "searchable": 0,
       "quickSearch": 0,
@@ -105,22 +105,22 @@
       "name": "📚｜百科｜全书",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/百科和地理.jar",
+      "jar": "http://210.16.160.81:1122/lib/百科和地理.jar",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/百科.js"
+      "ext": "http://210.16.160.81:1122/lib/百科.js"
     },
     {
       "key": "地理",
       "name": "🌍｜全球｜地理",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/百科和地理.jar",
+      "jar": "http://210.16.160.81:1122/lib/百科和地理.jar",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/地理.js"
+      "ext": "http://210.16.160.81:1122/lib/地理.js"
     },
     {
       "key": "Bili2",
@@ -128,25 +128,25 @@
       "type": 3,
       "api": "csp_Bili2",
       "searchable": 0,
-      "jar": "./lib/qx.jar",
-      "ext": "./lib/video_data.json"
+      "jar": "http://210.16.160.81:1122/lib/qx.jar",
+      "ext": "http://210.16.160.81:1122/lib/video_data.json"
     },
      {
       "key": "相声小品",
       "name": "🛎｜相声｜小品",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/百科和地理.jar",
+      "jar": "http://210.16.160.81:1122/lib/百科和地理.jar",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/相声小品.js"
+      "ext": "http://210.16.160.81:1122/lib/相声小品.js"
     },
     {
       "key": "梨园",
       "name": "🎭｜戏曲｜梨园",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "http://210.16.160.81:1122/lib/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -158,22 +158,22 @@
       "name": "📚｜百科｜全书",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/百科和地理.jar",
+      "jar": "http://210.16.160.81:1122/lib/百科和地理.jar",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/百科.js"
+      "ext": "http://210.16.160.81:1122/lib/百科.js"
     },
     {
       "key": "地理",
       "name": "🌍｜全球｜地理",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "./lib/百科和地理.jar",
+      "jar": "http://210.16.160.81:1122/lib/百科和地理.jar",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/地理.js"
+      "ext": "http://210.16.160.81:1122/lib/地理.js"
     },
     {
       "key": "瓜子",
