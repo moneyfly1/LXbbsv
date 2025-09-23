@@ -20,7 +20,7 @@ var rule = {
         'User-Agent': 'PC_UA'
     },
     timeout: 5000,
-    class_name: '臻彩4K✳️电视剧&臻彩4K✳️电影&臻彩4K✳️综艺&臻彩4K✳️动漫&臻彩4K✳️纪录片&臻彩4K✳️教育&臻彩4K✳️少儿',
+    class_name: '电视剧&电影&综艺&动漫&纪录片&教育&少儿',
     class_url: '2&3&1&50&51&115&10',
     filter: {
         "1": [{
@@ -664,7 +664,7 @@ var rule = {
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let api = "http://210.16.160.81:8122/api/?key=w2wXDK657XUq29lrzW&url=" + input.split("?")[0];
+            let api = "" + input.split("?")[0];
             console.log(api);
             let response = fetch(api, {
                 method: 'get',
@@ -679,14 +679,14 @@ var rule = {
                     parse: 0,
                     url: bata.url,
                     jx: 0,
-                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dmku.itcxo.cn/?ac=dm&url=" + input.split("?")[0]
+                    danmaku: "http://103.45.162.207:25252/hbdm.php?key=7894561232&id=" + input.split("?")[0]
                 };
             } else {
                 input = {
                     parse: 0,
                     url: input.split("?")[0],
                     jx: 1,
-                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=" + input.split("?")[0]
+                    danmaku: "http://103.45.162.207:25252/hbdm.php?key=7894561232&id=" + input.split("?")[0]
                 };
             }
         } catch {
@@ -694,7 +694,7 @@ var rule = {
                 parse: 0,
                 url: input.split("?")[0],
                 jx: 1,
-                danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=" + input.split("?")[0]
+                danmaku: "http://103.45.162.207:25252/hbdm.php?key=7894561232&id=" + input.split("?")[0]
             };
         }
     }),
