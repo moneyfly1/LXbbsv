@@ -1,103 +1,81 @@
 {
-    "parses": [
-        {
-            "name": "造梦玄武",
-            "type": 1,
-            "url": "http://47.108.190.232:299/api/?key=RxbMkQjZ92yKlj2Wxm&url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "bilibili",
-                    "YuMi-vip"
-                ]
-            }
-        }
-    ],
-    "sites": [
-        {
-            "key": "云腾酷酷1",
-            "name": "🔥定制|4K①",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "api": "./js/drpy2.min.js",
-            "ext": "./lib/10088.js"
-        },
-        {
-            "key": "芒果自家2",
-            "name": "🔥定制|4K②",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "api": "./js/drpy2.min.js",
-            "ext": "./lib/2.js"
-        },
-        {
-            "key": "云腾酷酷3",
-            "name": "🔥定制|4K③",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "api": "./js/drpy2.min.js",
-            "ext": "./lib/3.js"
-        },
-        {
-            "key": "AList",
-            "name": "🔥定制|4K④",
-            "type": 3,
-            "api": "csp_Alist",
-            "jar": "./jar/机哥剧圈.jar",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": "./json/alist.png"
-        },
-        {
-            "key": "云奇🦢4",
-            "name": "🔥定制|2K①",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./lib/4.js"
-        },
-        {
-            "key": "huban",
-            "name": "弹幕|打开悬浮",
-            "type": 3,
-            "jar": "./jar/HubanTC.jar",
-            "api": "csp_Huban"
-        },
-        {
-            "key": "天翼影视",
-            "name": "天翼｜4K",
-            "type": 1,
-            "api": "./html/vod.html",
-            "jar": "./jar/spider.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "推荐",
-                "电影",
-                "电视剧",
-                "综艺",
-                "动漫"
-            ]
-        },
+  "spider": "./jar/spider.jar",
+  "sites": [
+    {
+      "key": "云腾酷酷1",
+      "name": "✨腾云驾雾🎉",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./lib/10088.js"
+    },
+    {
+      "key": "芒果自家2",
+      "name": "✨茫茫人海🎉",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/2.js"
+    },
+    {
+      "key": "云腾酷酷3",
+      "name": "✨翻云腾雾🎉",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./lib/3.js"
+    },
+    {
+      "key": "AList",
+      "name": "✨Alist盘盘🎉",
+      "type": 3,
+      "api": "csp_Alist",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/alist.png"
+    },
+    {
+      "key": "云奇🦢4",
+      "name": "✨爱奇艺果🎉",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./lib/4.js"
+    },
+    {
+      "key": "huban",
+      "name": "弹幕👌",
+      "type": 3,
+      "api": "csp_Huban",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "天翼影视",
+      "name": "天翼🔔",
+      "type": 1,
+      "api": "./html/vod.html",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "推荐",
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫"
+      ]
+    },
         {
             "key": "移动",
             "name": "移动｜4K",
