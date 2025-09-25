@@ -1,5 +1,4 @@
 {
-  "spider": "./jar/spider.jar",
   "sites": [
     {
       "key": "云腾酷酷1",
@@ -62,7 +61,7 @@
     },
     {
       "key": "天翼影视",
-      "name": "天翼👓",
+      "name": "天翼🔔",
       "type": 1,
       "api": "./html/vod.html",
       "searchable": 1,
@@ -78,7 +77,7 @@
     },
     {
       "key": "移动",
-      "name": "移动👓",
+      "name": "移动🔔",
       "type": 3,
       "api": "csp_YD",
       "searchable": 1,
@@ -87,7 +86,7 @@
     },
     {
       "key": "金牌影院",
-      "name": "金牌👓",
+      "name": "金牌🔔",
       "type": 3,
       "api": "csp_AppMuou",
       "searchable": 1,
@@ -313,7 +312,7 @@
     },
     {
       "key": "蔬菜",
-      "name": "蔬菜👓",
+      "name": "蔬菜🔔",
       "type": 3,
       "api": "csp_AppGet",
       "searchable": 1,
@@ -323,7 +322,7 @@
     },
     {
       "key": "白蛇",
-      "name": "Netflix👓",
+      "name": "Netflix🔔",
       "type": 3,
       "api": "csp_AppGet",
       "searchable": 1,
@@ -333,7 +332,7 @@
     },
     {
       "key": "移动",
-      "name": "移动👓",
+      "name": "移动🔔",
       "type": 3,
       "api": "csp_YD",
       "searchable": 1,
@@ -342,7 +341,7 @@
     },
     {
       "key": "骚火影视",
-      "name": "骚火👓",
+      "name": "骚火🔔",
       "type": 3,
       "api": "csp_SaoHuo",
       "searchable": 1,
@@ -352,7 +351,7 @@
     },
     {
       "key": "农民影视",
-      "name": "农民👓",
+      "name": "农民🔔",
       "type": 3,
       "api": "csp_Wwys",
       "searchable": 1,
@@ -362,7 +361,7 @@
     },
     {
       "key": "麦田影视",
-      "name": "麦田🛕",
+      "name": "麦田👑",
       "type": 3,
       "api": "csp_HBPQ",
       "searchable": 1,
@@ -372,7 +371,7 @@
     },
     {
       "key": "永乐影视",
-      "name": "永乐🛕",
+      "name": "永乐👑",
       "type": 3,
       "api": "csp_HBPQ",
       "searchable": 1,
@@ -382,7 +381,7 @@
     },
     {
       "key": "哆啦新番社",
-      "name": "哆啦🛕",
+      "name": "哆啦👑",
       "type": 3,
       "api": "csp_HBPQ",
       "searchable": 1,
@@ -392,7 +391,7 @@
     },
     {
       "key": "曼波动漫",
-      "name": "曼波🛕",
+      "name": "曼波👑",
       "type": 3,
       "api": "csp_AppGet",
       "searchable": 1,
@@ -402,7 +401,7 @@
     },
     {
       "key": "稀饭动漫",
-      "name": "稀饭🛕",
+      "name": "稀饭👑",
       "type": 3,
       "api": "csp_AppGet",
       "searchable": 1,
@@ -412,7 +411,7 @@
     },
     {
       "key": "巴士动漫",
-      "name": "巴士🛕",
+      "name": "巴士👑",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -422,7 +421,7 @@
     },
     {
       "key": "奇米动漫",
-      "name": "奇米🛕",
+      "name": "奇米👑",
       "type": 3,
       "api": "./js/drpy2.min.js",
       "searchable": 1,
@@ -783,5 +782,6 @@
     "qiu.xixiqiu.com",
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
-  ]
+  ],
+  "spider": "./jar/spider.jar"
 }
