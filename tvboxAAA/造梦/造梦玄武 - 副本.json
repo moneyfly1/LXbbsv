@@ -78,7 +78,7 @@
           "tnmb",
           "seven",
           "bilibili"
-        ],
+        ]
       }
     },
     {
@@ -134,9 +134,8 @@
           "seven",
           "bilibili",
           "1905"
-        ],
+        ]
         }
-      }
     },
     {
       "name": "晓宇",
@@ -161,9 +160,8 @@
           "seven",
           "bilibili",
           "1905"
-        ],
+        ]
         }
-      }
     },
     {
       "name": "SVIP",
@@ -209,9 +207,8 @@
           "bilibili",
           "1905",
           "NetFilx"
-        ],
+        ]
         }
-      }
     },
     {
       "name": "巧计3",
@@ -227,9 +224,8 @@
           "GZYS",
           "weggz",
           "Ace"
-        ],
+        ]
         }
-      }
     }
   ],
   "sites": [
