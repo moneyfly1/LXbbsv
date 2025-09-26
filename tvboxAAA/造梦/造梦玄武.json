@@ -79,9 +79,6 @@
           "seven",
           "bilibili"
         ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
       }
     },
     {
@@ -138,8 +135,6 @@
           "bilibili",
           "1905"
         ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
         }
       }
     },
@@ -167,8 +162,6 @@
           "bilibili",
           "1905"
         ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
         }
       }
     },
@@ -217,8 +210,6 @@
           "1905",
           "NetFilx"
         ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
         }
       }
     },
@@ -237,8 +228,6 @@
           "weggz",
           "Ace"
         ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
         }
       }
     }
