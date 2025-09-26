@@ -63,4 +63,5 @@
 {"name":"线路5","url":"http://vip.56jm.cn/tvbox/shiguang-omg/omg.json"}, //拾光线路-20240520收集
 {"name":"线路6","url":"http://vip.56jm.cn/tvbox/gg/gg.json"}, // 20240609网络收集
 {"name":"线路7","url":"http://vip.56jm.cn/tvbox/jinzhifanmai/jinzhifanmai.json"}, //禁止贩卖-20240609网络收集
+
 {"name":"✨饭太硬✨","url":"http://www.饭太硬.com/tv"}]}
