@@ -1,5 +1,107 @@
 {
   "spider": "./jar/spider.jar",
+  "parses": [
+        {
+            "name": "造梦玄武",
+            "type": 1,
+            "url": "http:\/\/47.108.190.232:299\/api\/?key=RxbMkQjZ92yKlj2Wxm&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "bilibili",
+                    "YuMi-vip"
+                ]
+            }
+        },
+        {
+            "name": "抓的",
+            "type": 1,
+            "url": "http://140.210.9.53:8100/api/?key=e70b5af2f33f0063adad1e4693f5b9ff&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "bilibili",
+                    "YuMi-vip"
+                ]
+            }
+        },
+        {
+            "name": "萤火",
+            "type": 1,
+            "url": "http://114.66.55.28:9826/api/index?parsesId=7&appid=10000&videoUrl=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "bilibili",
+                    "YuMi-vip"
+                ]
+            }
+        },
+        {
+            "name": "芒果tv",
+            "type": 1,
+            "url": "http://140.210.9.53:8100/api/?key=e70b5af2f33f0063adad1e4693f5b9ff&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "bilibili",
+                    "YuMi-vip"
+                ]
+            }
+        },
+        {
+            "name": "知更鸟",
+            "type": 1,
+            "url": "http://114.66.55.28:559/api/index?parsesId=37&appid=10000&videoUrl=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "bilibili",
+                    "YuMi-vip"
+                ]
+            }
+        }
+    ],
   "sites": [
     {
       "key": "云腾酷酷1",
