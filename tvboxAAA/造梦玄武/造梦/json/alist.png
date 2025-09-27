@@ -1,0 +1,21 @@
+{
+    "vodPic": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1752473337788/IMG_20250714_140821.png",
+    "drives": [
+        {
+            "name": "💐小雅alist①💐",
+            "server": "http://220.133.171.75:5678"
+        },
+        {
+            "name": "💐小雅alist②💐",
+            "server": "http://175.10.25.2:5678"
+        },
+        {
+            "name": "💐小雅alist③💐",
+            "server": "http://113.116.180.85:5678"
+        },
+        {
+            "name": "🌌七米蓝🌌",
+            "server": "https://al.chirmyram.com"
+        }
+    ]
+}
