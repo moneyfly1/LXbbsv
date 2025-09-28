@@ -167,9 +167,24 @@
       }
     },
     {
-      "name": "聚合",
-      "type": 3,
-      "url": "Demo"
+      "name": "芒果🥭tv",
+      "type": 1,
+      "url": "http://test.wovie.cc/iqy.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "bilibili",
+          "YuMi-vip"
+        ]
+      }
     },
     {
       "name": "夏夜",
