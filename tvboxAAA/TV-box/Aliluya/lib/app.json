@@ -1,0 +1,38 @@
+[{"name": "影视TV",
+    "list": [
+      {
+        "name": "OK電視32",
+        "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-java-armeabi_v7a.apk",
+        "icon": "http://liucn.cc/box/img/img_1.png",
+        "version": "Java32"
+      },
+      {
+        "name": "OK手機32",
+        "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-java-armeabi_v7a.apk",
+        "icon": "http://liucn.cc/box/img/img_1.png",
+        "version": "Java32"
+      },
+      {
+        "name": "Fongmi電視64",
+        "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/leanback-python-arm64_v8a.apk",
+        "icon": "http://liucn.cc/box/img/img_1.png",
+        "version": "Py64"
+      },
+      {
+        "name": "Fongmi手機64",
+        "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/mobile-python-arm64_v8a.apk",
+        "icon": "http://liucn.cc/box/img/img_1.png",
+        "version": "Py64"
+      },
+      {
+        "name": "Fongmi電視32",
+        "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/leanback-java-armeabi_v7a.apk",
+        "icon": "http://liucn.cc/box/img/img_1.png",
+        "version": "Java32"
+      },
+      {
+        "name": "Fongmi手機32",
+        "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/mobile-java-armeabi_v7a.apk",
+        "icon": "http://liucn.cc/box/img/img_1.png",
+        "version": "Java32"
+      }]}]

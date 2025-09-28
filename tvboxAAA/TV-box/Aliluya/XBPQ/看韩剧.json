@@ -1,0 +1,18 @@
+ {
+        "主页url": "https://m.kan.cc/",
+        "简介": "</label>&&</div>",
+        "数组": "class=\"col-md-6 col-sm-4 col-xs-3&&</div>",
+        "图片": "data-original=\"&&\"",
+        "标题": "title=\"&&\"",
+        "副标题": "class=\"pic-text text-right\">&&</span>",
+        "链接": "href=\"&&\"",
+        "主演": "主演：&&</p>",
+        "线路标题":"data-toggle=\"tab\">&&</a>",
+        "播放链接": "href=\"&&\"",
+        //"线路数组":"<li>&&</li>",
+        //"线路标题": "SHG文采",
+        //"播放数组": " <li>&&</li>",
+        //"播放列表": "class=\"title hidden-xs\"&&</ul>",
+        "免嗅":"1",
+        "分类": "全部$1#动作$2#奇幻$77#综艺$3#动漫$4",
+        "分类url": "https://m.kan.cc/tag/{cateId}-{catePg}.html"}

@@ -1,0 +1,18 @@
+{
+  "主页url":"https://voflix.fun/",
+  "搜索模式":"1",
+  "搜索url":"https://voflix.fun/search/{wd}----------{pg}---.html",
+  "搜索数组":"module-item\">&&</a>",
+  "搜索图片":"data-original=\"&&\"",
+  "搜索标题":"alt=\"&&\"",
+  "搜索链接":"href=\"&&\"",
+  "搜索副标题":"module-item-note\">&&</div>",
+  "线路数组":"<div class=\"module-tab-item tab-item&&</div>",
+  "线路标题":"<span>&&</small>[替换:</span><small>>>♡]+集♡",
+  "播放数组":"class=\"module-list&&</div>",
+  "影片类型":"module-info-tag\"&&立即播放",
+  "导演":"导演：&&</div>",
+  "主演":"主演：&&</div>",
+  "简介":"class=\"module-info-introduction-content\"&&</div>",
+  "分类":"电影$1#剧集$2#综艺$3#动漫$4",
+  "分类url":"https://voflix.fun/vodshow/{cateId}{catelog}-{area}-{by}-{class}-----{catePg}---{year}.html;;ak"}
