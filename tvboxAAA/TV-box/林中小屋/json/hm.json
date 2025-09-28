@@ -1,0 +1,23 @@
+{
+    "SiteUrl": "https://www.haimianxz.com",
+    "Classes": [
+        {
+            "type_name": "4K电影",
+            "type_id": "1"
+        },
+        {
+            "type_name": "4K剧集",
+            "type_id": "2"
+        },
+        {
+            "type_name": "4K综艺",
+            "type_id": "5"
+        },
+        {
+            "type_name": "4K动漫",
+            "type_id": "3"
+        }
+    ]
+}
+
+
