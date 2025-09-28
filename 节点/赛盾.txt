@@ -1,6 +1,5 @@
 
 #赛盾
-
 vless://5c183802-747d-4d2f-a6f1-aff2d5d78401@8.209.76.208:443/?type=tcp&encryption=none&flow=&sni=github.githubassets.com&fp=chrome&security=reality&pbk=DNdTBHyztOVJOBJQX91YXEhNkWbSAntqUoTFBHc6Clw&sid=6ba85179e30d4fc2#GER
 vless://3e7f67de-648e-4871-b51a-a225214d41ee@8.208.53.56:443/?type=tcp&encryption=none&flow=&sni=evt.ilovepdf.com&fp=chrome&security=reality&pbk=TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw&sid=#UK
 vless://5c183802-747d-4d2f-a6f1-aff2d5d78401@47.245.101.23:443/?type=tcp&encryption=none&flow=&sni=api.digital-help-prd.autodesk.com&fp=chrome&security=reality&pbk=DNdTBHyztOVJOBJQX91YXEhNkWbSAntqUoTFBHc6Clw&sid=6ba85179e30d4fc2#SG
@@ -97,6 +96,22 @@ trojan://68aff74a-3804-49ef-9c41-1d1a61b611fd@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1
 trojan://a2499c94-870f-420b-9471-4c6b8e032417@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#03-%E9%A6%99%E6%B8%AFHK3
 trojan://5429b915-dc17-4bb4-bde4-bde5cf09244d@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#24-%E9%A6%99%E6%B8%AFHK3
 trojan://a204f380-622f-4bb8-a5a9-230437ab5e0b@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#07-%E9%A6%99%E6%B8%AFHK3
+
+#霹雳鲨
+vmess://eyJ2IjoiMiIsInBzIjoiQSIsImFkZCI6IjM2LjEzMy43My4zNiIsInBvcnQiOiIxMTgxOSIsImlkIjoiZGUzMjc1MmMtMDY2MS00NjdlLTgyZDMtMzViYzc0MGE3ODdmIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQ==
+
+vmess://eyJ2IjogIjIiLCAicHMiOiAiMzYuMTM5LjIwMS4zNToxMDAwNiIsICJhZGQiOiAiMzYuMTM5LjIwMS4zNSIsICJwb3J0IjogMTAwMDYsICJhaWQiOiAwLCAidHlwZSI6ICIiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJob3N0IjogIiIsICJpZCI6ICI4ZDcxN2U1YS1kYWI1LTRiOTktYWY0Zi1lYTI5ZWY4ZWViZWQiLCAidGxzIjogIm5vbmUifQ==
+      vmess://eyJ2IjogIjIiLCAicHMiOiAiMzYuMTM5LjIwMS4zNToxMDAwNyIsICJhZGQiOiAiMzYuMTM5LjIwMS4zNSIsICJwb3J0IjogMTAwMDcsICJhaWQiOiAwLCAidHlwZSI6ICIiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJob3N0IjogIiIsICJpZCI6ICI4ZDcxN2U1YS1kYWI1LTRiOTktYWY0Zi1lYTI5ZWY4ZWViZWQiLCAidGxzIjogIm5vbmUifQ==
+      vmess://eyJ2IjogIjIiLCAicHMiOiAiMzYuMTM5LjIwMS4zNToxMDAwOCIsICJhZGQiOiAiMzYuMTM5LjIwMS4zNSIsICJwb3J0IjogMTAwMDgsICJhaWQiOiAwLCAidHlwZSI6ICIiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJob3N0IjogIiIsICJpZCI6ICI4ZDcxN2U1YS1kYWI1LTRiOTktYWY0Zi1lYTI5ZWY4ZWViZWQiLCAidGxzIjogIm5vbmUifQ==
+      vmess://eyJ2IjogIjIiLCAicHMiOiAiMzYuMTM5LjIwMS4zNToxMDAwOSIsICJhZGQiOiAiMzYuMTM5LjIwMS4zNSIsICJwb3J0IjogMTAwMDksICJhaWQiOiAwLCAidHlwZSI6ICIiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJob3N0IjogIiIsICJpZCI6ICI4ZDcxN2U1YS1kYWI1LTRiOTktYWY0Zi1lYTI5ZWY4ZWViZWQiLCAidGxzIjogIm5vbmUifQ==
+      vmess://eyJ2IjogIjIiLCAicHMiOiAiMzYuMTM5LjIwMS4zNToxMDAxMCIsICJhZGQiOiAiMzYuMTM5LjIwMS4zNSIsICJwb3J0IjogMTAwMTAsICJhaWQiOiAwLCAidHlwZSI6ICIiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJob3N0IjogIiIsICJpZCI6ICI4ZDcxN2U1YS1kYWI1LTRiOTktYWY0Zi1lYTI5ZWY4ZWViZWQiLCAidGxzIjogIm5vbmUifQ==
+
+
+
+
+
+
+
 
 
 
