@@ -106,6 +106,26 @@
         }
       }
     },
+        {
+      "name": "抓1免米",
+      "type": 0,
+      "url": "http://111.170.157.210:7998/api/index?parsesId=4&appid=10002&videoUrl=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
+        {
+      "name": "抓2免米",
+      "type": 0,
+      "url": "https://jx.ariesc.cn/api/?key=8af25b37f95ea8a4c1eca1ca9cd77f41&url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+        }
+      }
+    },
     {
       "name": "淘片",
       "type": 0,
