@@ -65,38 +65,6 @@ trojan://YeWZlgiZ@36.151.251.23:21454?security=tls&allowInsecure=1#VIP-%E6%97%A5
 
 
 
-#30个流星
-trojan://e20e3bcc-b1c6-441f-bb31-474a1439d68f@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#13-%E9%A6%99%E6%B8%AFHK3
-trojan://bea51ebc-7dd9-4c8b-a574-275dfa417e93@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#19-%E9%A6%99%E6%B8%AFHK3
-trojan://8e4bdc59-a6a8-4e9f-acf3-57f68cd7d9fa@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#12-%E9%A6%99%E6%B8%AFHK3
-trojan://d1d2b814-e15a-4937-bb63-7790ca82f280@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#30-%E9%A6%99%E6%B8%AFHK3
-trojan://c7566506-39ef-4167-afda-966779c45491@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#05-%E9%A6%99%E6%B8%AFHK3
-trojan://f4010d4a-1d70-4d70-8ced-47a5e35ce25f@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#21-%E9%A6%99%E6%B8%AFHK3
-trojan://a3d7f510-b179-4efa-bb22-28d6336a5f34@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#04-%E9%A6%99%E6%B8%AFHK3
-trojan://3de6ac4d-59b3-4cc4-9d5d-fd28ed57868d@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#16-%E9%A6%99%E6%B8%AFHK3
-trojan://76a3be0c-ddea-47f9-b725-e43eb3392483@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#22-%E9%A6%99%E6%B8%AFHK3
-trojan://80eaf6e5-8dcc-42c0-8d5f-1674674100ac@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#28-%E9%A6%99%E6%B8%AFHK3
-trojan://101897e3-0862-4433-826c-af27b0f81580@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#20-%E9%A6%99%E6%B8%AFHK3
-trojan://3a9d8a1f-4731-495c-962b-65d50112d343@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#14-%E9%A6%99%E6%B8%AFHK3
-trojan://fcf57fa3-12f3-45bf-9a5b-00b460d352ca@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#09-%E9%A6%99%E6%B8%AFHK3
-trojan://e9bfd6e0-ad5f-4e95-9fcb-c3d77f984212@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#17-%E9%A6%99%E6%B8%AFHK3
-trojan://3d083b26-d42b-449a-8cd6-3ccbb62fd65d@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#23-%E9%A6%99%E6%B8%AFHK3
-trojan://cb9dd796-9d30-4d12-b991-c84ed5710f6d@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#29-%E9%A6%99%E6%B8%AFHK3
-trojan://19e3c0ae-18b7-4f15-b01a-01cf4c2c7d09@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#06-%E9%A6%99%E6%B8%AFHK3
-trojan://390e0155-69c2-4275-aa34-52a6687f8509@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#15-%E9%A6%99%E6%B8%AFHK3
-trojan://9cc54f49-1452-4292-9ed5-afd5027b4fb2@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#25-%E9%A6%99%E6%B8%AFHK3
-trojan://91bf0300-acb8-4959-91c8-c16ddb363a51@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#02-%E9%A6%99%E6%B8%AFHK3
-trojan://7ff57025-29b0-4d8a-98b0-03c907bf0ddc@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#10-%E9%A6%99%E6%B8%AFHK3
-trojan://588caf26-47b1-4363-aa4f-c55e69a9bf9c@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#18-%E9%A6%99%E6%B8%AFHK3
-trojan://8a05e9a0-8660-41d6-bc3f-b5bd189e7e15@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#27-%E9%A6%99%E6%B8%AFHK3
-trojan://8250f9ae-168b-466b-a82c-5e1a9ffba4de@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#08-%E9%A6%99%E6%B8%AFHK3
-trojan://d287bc14-df44-4bde-a299-67c5f95cfbf4@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#26-%E9%A6%99%E6%B8%AFHK3
-trojan://b495a556-ad39-452f-90ac-3004d1a3388c@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#01-%E9%A6%99%E6%B8%AFHK3
-trojan://68aff74a-3804-49ef-9c41-1d1a61b611fd@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#11-%E9%A6%99%E6%B8%AFHK3
-trojan://a2499c94-870f-420b-9471-4c6b8e032417@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#03-%E9%A6%99%E6%B8%AFHK3
-trojan://5429b915-dc17-4bb4-bde4-bde5cf09244d@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#24-%E9%A6%99%E6%B8%AFHK3
-trojan://a204f380-622f-4bb8-a5a9-230437ab5e0b@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:17101?allowInsecure=1&peer=www.bilibili.com#07-%E9%A6%99%E6%B8%AFHK3
-
 #霹雳鲨提取
 vmess://eyJ2IjoiMiIsInBzIjoiQSIsImFkZCI6IjM2LjEzMy43My4zNiIsInBvcnQiOiIxMTgxOSIsImlkIjoiZGUzMjc1MmMtMDY2MS00NjdlLTgyZDMtMzViYzc0MGE3ODdmIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMzYuMTM5LjIwMS4zNToxMDAwNiIsICJhZGQiOiAiMzYuMTM5LjIwMS4zNSIsICJwb3J0IjogMTAwMDYsICJhaWQiOiAwLCAidHlwZSI6ICIiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJob3N0IjogIiIsICJpZCI6ICI4ZDcxN2U1YS1kYWI1LTRiOTktYWY0Zi1lYTI5ZWY4ZWViZWQiLCAidGxzIjogIm5vbmUifQ==
