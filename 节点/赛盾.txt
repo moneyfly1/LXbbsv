@@ -193,6 +193,16 @@ ss://YWVzLTI1Ni1nY206TXJoem95NGhMc1RRMmR5eEAxOTkuMTE1LjIzMC43Njo2NjA5#JMS-124692
 vmess://YXV0bzo2MjgwMDEyYi01NGVlLTQ5OGItOGRhNi1iODM0YmE0NDk1NWRAMjEyLjUwLjIzMC4xMDc6NTUxMg?remarks=JMS-794021@c55s801.portablesubmarines.com:5512&alterId=0
 
 
+#supervpn
+vless://YXV0bzpkNjVjYzE0Yy1mNTNmLTRmZTItYjI2Mi05Nzg1NjYwMTMxOWNAODcuMjI5LjEwOC4xNjc6NTQ0Mw?remarks=Netherlands//////supervpn%E6%8F%90%E5%8F%96&tls=1&peer=yandex.com&xtls=2&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&sid=c39cc7310a
+vless://YXV0bzpkNjVjYzE0Yy1mNTNmLTRmZTItYjI2Mi05Nzg1NjYwMTMxOWNAODcuMjI5Ljk3LjEwMzo1NDQz?remarks=Germany////supervpn%E6%8F%90%E5%8F%96&tls=1&peer=yandex.com&xtls=2&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&sid=c39cc7310a
+
+
+
+#小火箭vpn
+vmess://YXV0bzo2MjkyMDNiOC03YWYzLTRiNDctOWJiMS02NzI4YWVjYWExZjlAODIuMTgwLjEzMC4xMTM6MTAwODY?remarks=%F0%9F%87%BA%F0%9F%87%B8%20US-VMess-TCP%E5%B0%8F%E7%81%AB%E7%AE%ADvpn&alterId=0
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3cjNJTEo3MHpPRXRDdEtvb3pWWXpRPT1AODIuMTgwLjEzMC4xMTM6MTAwODk#%F0%9F%87%AF%F0%9F%87%B5%20JP-Shadowsocks%E5%B0%8F%E7%81%AB%E7%AE%ADvpn
+vmess://YXV0bzo0NTE2MTMyYS1hMDQ2LTQ1MDUtYTkwYS1mMTUzNzM2MzMzMGZAODIuMTgwLjEzMC4xMTM6MTAwODc?path=/vmess2&remarks=%F0%9F%87%AC%F0%9F%87%A7%20UK-VMess-WS%E5%B0%8F%E7%81%AB%E7%AE%ADvpn&obfs=websocket&alterId=0
 
 
 
